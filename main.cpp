@@ -16,12 +16,15 @@ int main()
     else
         cout << "False";
 
+    cout << endl;
+    testDate();
+
 
 }
 
 void testDate()
 {
-    Date date (1996, 12, 15);
+    Date date (1995, 12, 15);
 
     while(date.getMonth() != Date::may)
     {
